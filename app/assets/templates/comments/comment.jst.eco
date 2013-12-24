@@ -1,0 +1,4 @@
+<td><%= @comment.get('content') %></td>
+<td>Posted by:<%= @comment.get('name') %></td>
+<td><button type="button" class="btn btn-primary" id="editComment">Edit</button></td>
+<td><button type="button" class="btn btn-primary" id="delete_comment">Delete</button></td>

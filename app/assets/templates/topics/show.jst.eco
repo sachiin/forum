@@ -1,0 +1,6 @@
+
+<h2><%= @thread.get('title') %></h2>
+<p> <%= @thread.get('content') %> </p>
+Posted By: <%= @thread.get('name') %>
+<div>
+</div>

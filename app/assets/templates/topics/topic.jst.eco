@@ -1,0 +1,3 @@
+<td><%= @topic.get('title') %> </td><td><div class="navbar-right" id="ops"><button type="button" class="btn btn-primary" id="show_topic">Show</button></td>
+<td><button type="button" class="btn btn-primary" id="editTopic">Edit</button></td>
+<td><button type="button" class="btn btn-primary" id="delete_topic">Delete</button></td></div>

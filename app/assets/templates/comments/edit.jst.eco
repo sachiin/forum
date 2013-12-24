@@ -1,0 +1,12 @@
+<form role="form" id="edit_comment">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="edit_name" value="<%= @comment.get('name') %>"  >
+  </div>
+  <div class="form-group">
+    <label for="description">Comment</label>
+    <textarea class="form-control" rows="3" id="edit_content"   style='width:400px;'><%= @comment.get('content') %></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Edit Comment</button>
+</form>
+

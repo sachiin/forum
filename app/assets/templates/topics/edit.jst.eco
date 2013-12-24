@@ -1,0 +1,16 @@
+<form role="form" id="edit_topic">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="edit_name" value="<%= @thread.get('name') %>"  >
+  </div>
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="edit_title"  value="<%= @thread.get('title') %>" style='width:500px;'>
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea class="form-control" rows="3" id="edit_content"   style='width:400px;'><%= @thread.get('content') %></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Edit Topic</button>
+</form>
+

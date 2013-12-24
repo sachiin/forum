@@ -1,0 +1,16 @@
+<div class="center-block"><h3>New Comment</h3>
+<form role="form" id="new_comment">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="new_name" placeholder="Enter Name">
+  </div>
+  <div class="form-group">
+    <label for="comment">Comment</label>
+    <textarea class="form-control" rows="2" id="new_content" placeholder="Enter comment" style='width:400px;'></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Click to comment</button>
+</form>
+</div>
+<table id="comment_list" class="table table-hover">
+</table>
+
